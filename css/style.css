@@ -1,0 +1,15 @@
+.consentito, .vinto{
+    color: green;
+    font-weight: 700;
+}
+
+.negato, .perso{
+    color: red;
+    font-weight: 700;
+}
+
+.pareggio{
+    color: rgb(255, 179, 0);
+    font-weight:700;
+}
+
