@@ -10,10 +10,10 @@ bottoneLogin.addEventListener('click', function () {
 
     if (accountLogin.includes(resultEmail)){
         console.log('Accesso consentito!');
-        accessoDiv.innerHTML += `<div class="consentito" >Accesso consentito :)</div>`;
+        accessoDiv.innerHTML += `<div class="consentito" >Accesso consentito, email verificata :)</div>`;
     } else{
         console.log('Accesso negato');
-        accessoDiv.innerHTML += `<div class="negato">Accesso negato! :(</div>`;
+        accessoDiv.innerHTML += `<div class="negato">Accesso negato! l'email non è registrata :(</div>`;
     }
 });
 
@@ -27,10 +27,10 @@ bottoneGenera.addEventListener('click', function () {
 
     if (playerPoint === computerPoint){
         console.log('C\'è stato un pareggio')
-        resultPoint.innerHTML += `<div class="pareggio" >Pareggio</div>`;
+        resultPoint.innerHTML += `<div class="pareggio" >C'è stato un pareggio!</div>`;
     }else if (playerPoint > computerPoint){
         console.log('Ha vinto il giocatore!')
-        resultPoint.innerHTML += `<div class="vinto" >Hai Vinto!</div>`;
+        resultPoint.innerHTML += `<div class="vinto" >Hai vinto :)</div>`;
     } else if (computerPoint > playerPoint){
         console.log('Ha vinto il computer!')
         resultPoint.innerHTML += `<div class="perso" >Hai perso :(</div>`;

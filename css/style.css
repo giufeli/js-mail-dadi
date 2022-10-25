@@ -1,15 +1,21 @@
+body{
+    font-weight: 700;
+    background-image: url(../img/minimalistic-1666706850327-3634.jpg);
+    background-size: cover;
+}
+
 .consentito, .vinto{
     color: green;
-    font-weight: 700;
+    
 }
 
 .negato, .perso{
     color: red;
-    font-weight: 700;
+    
 }
 
 .pareggio{
-    color: rgb(255, 179, 0);
-    font-weight:700;
+    color: rgb(255, 157, 0);
+    
 }
 
